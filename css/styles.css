@@ -633,5 +633,7 @@ font-weight: 500;
 .f-form{
     margin-left: 80px;
 }
-
+.footer-form{
+    display: flex;
+}
 /*-----------------/footer---------------------------------*/
