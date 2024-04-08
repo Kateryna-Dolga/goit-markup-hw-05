@@ -675,6 +675,7 @@ background-color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-p{
+    margin-bottom: 16px;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -694,20 +695,35 @@ display: flex;
         height: 336px;
 }
 
+.modal-one{
+    margin-bottom: 8px;
+}
+
+.label-modal{
+    line-height: 1.17;
+    font-weight: 400;
+        font-size: 12px;
+       display: block;
+        letter-spacing: 0.04em;
+        color: #8e8f99;
+        margin-bottom: 4px;
+}
+
+.modal-one-div{
+position: relative;
+}
+
+
 .modal-input{
+    
     border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
-        width: 360px;
+    
         height: 40px;
+        width: 100%;
 
 }
-.modal label{
-font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16667;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-}
+
 
 .modal-button-top{
     display: flex;

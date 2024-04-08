@@ -560,7 +560,7 @@
 <!--modal-top-------------------------------------------------------->
 <button class="modal-button-top" type="button">
        <svg class="modal-close" width="8" height="8">
-            <use href="./images/modal-icon.svg#icon-x" class="footer-use-svg"></use>
+            <use href="./images/modal-icon.svg#icon-x" class="modal-icon-x"></use>
         </svg> 
         </button>
         <p class="modal-p">Leave your contacts and we will call you back</p>
@@ -570,16 +570,22 @@
 
 <!--modal-one-------------------------------------------------------->
 <div class="modal-one">  
-    <label>
+    <label class="label-modal" for="user-name">
        Name
-        <input class="modal-input" type="text" name="name" />
     </label>
+
+    <div class="modal-one-div">
+        <input class="modal-input" id="user-name" type="text" name="user-name" />
+        <svg class="modal-close" width="8" height="8">
+            <use href="./images/modal-icon.svg#icon-name" class="modal-icon-name"></use>
+        </svg>
+    </div>
 </div>
 <!--/modal-one-------------------------------------------------------->
 
 <!--modal-two-------------------------------------------------------->
 <div class="modal-two">
-    <label>
+    <label class="label-modal">
     Phone
         <input class="modal-input" type="text" name="phone" />
     </label>
@@ -588,7 +594,7 @@
 
 <!--modal-three-------------------------------------------------------->
 <div class="modal-three">
-    <label>
+    <label class="label-modal">
         Email
         <input class="modal-input" type="text" name="email" />
     </label>
@@ -597,7 +603,7 @@
 
 <!--modal-four-------------------------------------------------------->
 <div class="modal-four">
-    <label>
+    <label class="label-modal">
         Comment
         <input class="modal-input-comment" type="text" name="comment" placeholder="Text input"/>
     </label>
