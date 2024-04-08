@@ -731,15 +731,17 @@ position: relative;
     border-color: #4D5AE5;
 }
 
- .modal-input:focus .modal-name {
-     fill: #4D5AE5;
+ .modal-input:focus .modal-name-svg{
+ 
+    fill: #4D5AE5;
  }
 
-.modal-name{
+.modal-name-svg{
 position: absolute;
 left: 16px;
 top: 50%;
 transform: translateY(-50%);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
