@@ -866,7 +866,7 @@ letter-spacing: 0.04em;
     fill: transparent;
 }
 
-.input-privacy input[type="checkbox"]:checked + span {
+.input-privacy input[type="checkbox"]:checked  .span-privacy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
